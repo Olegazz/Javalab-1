@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Complex {
-    class MyExceptionClass extends Exception{
+    static class MyExceptionClass extends Exception{
 
     };
     double re, im;

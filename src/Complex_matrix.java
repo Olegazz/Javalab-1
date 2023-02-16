@@ -40,9 +40,8 @@ public class Complex_matrix {
             System.out.println("Choose next action: 1 - fold, 2 - multiply, 3 - transpose");
             flag_1 = console.nextInt();
             if(flag_1 == 1){
-                System.out.println("Enter the size of the second matrix");
-                rows_1 = console.nextInt();
-                cols_1 = console.nextInt();
+                rows_1 = rows;
+                cols_1 = cols;
                 Complex complexArray_1[][] = new Complex[rows_1][cols_1];
                 System.out.println("Enter elements a b for second complex matrix");
                 for (int i = 0; i < rows_1; i++) {
@@ -74,9 +73,8 @@ public class Complex_matrix {
                 }
             }
             if (flag_1 == 2) {
-                System.out.println("Enter the size of the second matrix");
-                rows_1 = console.nextInt();
-                cols_1 = console.nextInt();
+                rows_1 = cols;
+                cols_1 = rows;
                 Complex complexArray_1[][] = new Complex[rows_1][cols_1];
 
                 System.out.println("Enter elements a b for second complex matrix");
@@ -161,9 +159,8 @@ public class Complex_matrix {
             System.out.println("Choose next action: 1 - fold, 2 - multiply, 3 - transpose");
             flag_1 = console.nextInt();
             if(flag_1 == 1) {
-                System.out.println("Enter the size of the second matrix");
-                rows_1 = console.nextInt();
-                cols_1 = console.nextInt();
+                rows_1 = rows;
+                cols_1 = cols;
                 int[][] array_1 = new int[rows_1][cols_1];
                 System.out.println("Enter elements for second complex matrix");
                 for (int i = 0; i < rows_1; i++) {
@@ -190,9 +187,8 @@ public class Complex_matrix {
                 }
             }
             if (flag_1 == 2) {
-                System.out.println("Enter the size of the second matrix");
-                rows_1 = console.nextInt();
-                cols_1 = console.nextInt();
+                rows_1 = cols;
+                cols_1 = rows;
                 int[][] array_1 = new int[rows_1][cols_1];
                 
                 System.out.println("Enter elements for second complex matrix");
